@@ -1,0 +1,195 @@
+/* Colores y tipografía */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+#main-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+#main-header h1 {
+    margin: 0;
+    font-size: 36px;
+    display: inline-block;
+}
+
+/* Menú */
+#menu {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    display: inline-block;
+}
+#menu a:hover {
+    color: #ffcc00;
+}
+
+/* Banner */
+.banner img {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Información */
+.info {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 228, 178, 0.8);
+    font-size: 18px;
+    color: #333;
+}
+
+/* Categorías */
+.categories {
+    display: flex; /* Organiza los elementos en línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: flex-start; /* Alinea las imágenes al inicio */
+    gap: 20px; /* Espaciado entre los bloques */
+    padding: 20px 0;
+}
+
+.category-item {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #ccc; /* Borde inicial */
+    padding: 10px;
+    transition: border-color 0.3s ease; /* Transición suave para el borde */
+}
+
+.category-item:hover {
+    border-color: #ff6347; /* Resalta el borde al pasar el cursor */
+}
+
+.category-item img {
+    display: block;
+    width: 150px; /* Tamaño fijo inicial */
+    height: 150px;
+    object-fit: cover; /* Asegura que las imágenes tengan la misma proporción */
+    margin: 10px auto;
+    transition: transform 0.3s ease; /* Transición suave para el cambio de tamaño */
+}
+
+.category-item img:hover {
+    transform: scale(1.2); /* Aumenta el tamaño de la imagen */
+}
+
+.category {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+.category-item:hover .category {
+    color: #ff6347; /* Cambia el color del texto al pasar el cursor */
+}
+
+
+
+/* Rebajas */
+.sale {
+    background-color: #e63946; /* Fondo rojo */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar contenido */
+    padding: 15px;
+}
+
+.sale p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.btn-sale {
+    margin-top: 10px; /* Separación entre el texto y el botón */
+    padding: 10px 20px; /* Tamaño del botón */
+    font-size: 16px;
+    color: white;
+    background-color: #ffcc00; /* Color amarillo */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.btn-sale:hover {
+    background-color: #ffd633; /* Color amarillo más claro al pasar el cursor */
+}
+
+.btn-sale:active {
+    background-color: #e6b800; /* Color más oscuro al hacer clic */
+}
+
+/* Pie de página */
+#contact {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
+/* Redes Sociales */
+#socials {
+    display: block;
+    margin: 10px 0;
+}
+
+#socials .social-link {
+    display: inline-block;
+    margin: 0 10px;
+    color: #00acee; /* Azul para enlaces sociales */
+    text-decoration: none;
+}
+
+#socials .social-link:hover {
+    color: #ffcc00; /* Cambia a amarillo al pasar el cursor */
+}
+
+/* Soporte: Chat en Línea y WhatsApp */
+#support {
+    margin-top: 15px;
+    display: flex; /* Alinea los elementos horizontalmente */
+    justify-content: center; /* Centra las opciones */
+    gap: 20px; /* Espaciado entre los botones */
+}
+
+.support-link {
+    display: flex; /* Alinea icono y texto horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    text-decoration: none;
+    color: white;
+    background-color: #444; /* Fondo gris */
+    padding: 10px 15px;
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.support-link:hover {
+    background-color: #ff6347; /* Fondo rojo al pasar el cursor */
+    transform: scale(1.1); /* Efecto de aumento */
+}
+
+.support-link .icon {
+    width: 20px; /* Tamaño del icono */
+    height: 20px;
+    margin-right: 10px; /* Espaciado entre icono y texto */
+}
