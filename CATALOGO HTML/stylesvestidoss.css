@@ -1,0 +1,89 @@
+/* Herencia de estilos */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Herencia aplicada a encabezados */
+h1, h2, p {
+    text-align: center;
+}
+
+/* Específicos de header */
+header {
+    background-color: #f8f9fa;
+    padding: 20px 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+/* Sección del catálogo */
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.categoria {
+    flex: 1 1 calc(30% - 20px);
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.categoria img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.categoria h2 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Efectos en hover */
+.categoria:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de ofertas */
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.ofertas-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ofertas-btn:hover {
+    background-color: #218838;
+}

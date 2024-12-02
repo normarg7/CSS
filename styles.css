@@ -101,6 +101,36 @@ body {
     color: #ff6347; /* Cambia el color del texto al pasar el cursor */
 }
 
+/* BOTON COMPRA */
+#compra {
+    background-color: #e63946; /* Fondo rojo */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar contenido */
+    padding: 15px;
+}
+
+#compra p {
+    margin: 0;
+    font-size: 24px;
+}
+
+#btn-compra {
+    margin-top: 10px; /* Separación entre el texto y el botón */
+    padding: 10px 20px; /* Tamaño del botón */
+    font-size: 16px;
+    color: white;
+    background-color: #ffcc00; /* Color amarillo */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+
+
+
+
+
 
 
 /* Rebajas */
